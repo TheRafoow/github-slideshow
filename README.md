@@ -1,3 +1,3 @@
 # GitHub SlideShow
 
-Mon nouveau Dépard sur mackbookPro 2013.
+Mon nouveau Départ sur mackbookPro 2013.
