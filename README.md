@@ -1,3 +1,6 @@
 # GitHub SlideShow
 
-Mon nouveau Départ sur mackbookPro 2013.
+## Mon Nouveau Départ Sur MackbookPro 2013.
+
+![GitHub-Logo-2013](https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg)
+
