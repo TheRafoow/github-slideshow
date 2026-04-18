@@ -4,8 +4,8 @@
 
 ![GitHub-Logo-2013](https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg)
 
-### Tutoriel Rapide De L'Utilisation Git
-#### Git est un logiciel de versioning, afin que plusieurs collaborateur puissent travailler sur un projet commun.
+### Tutoriel Rapide De L'Utilisation Git.
+#### Git est un logiciel de versioning, afin que plusieurs collaborateurs puissent travailler sur un projet commun.
 
 
 <p align="center">
