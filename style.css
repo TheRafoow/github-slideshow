@@ -9,3 +9,49 @@ body {
   color: #e6edf3;
   font-family: 'Syne', sans-serif;
 }
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-tag {
+  font-size: 0.75rem;
+  color: #56d364;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 8vw, 7rem);
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 span {
+  color: #f78166;
+}
+
+.hero-sub {
+  font-size: 1rem;
+  color: #8b949e;
+  max-width: 480px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.hero-cta {
+  background: #f78166;
+  color: #000;
+  font-weight: 700;
+  padding: 0.9rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
