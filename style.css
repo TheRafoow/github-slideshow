@@ -347,7 +347,6 @@ body {
   color: #8b949e;
   text-decoration: none;
 }
-
 /* --- RESPONSIVE --- */
 @media (min-width: 600px) {
   .chaos-grid {
@@ -357,3 +356,16 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* --- ANIMATIONS --- */
+.workflow-step {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.workflow-step.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+

@@ -7,6 +7,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
+<script>
+    const steps = document.querySelectorAll('.workflow-step');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 150);
+        }
+      });
+    }, { threshold: 0.2 });
+    steps.forEach(s => observer.observe(s));
+  </script>
 <body>
 
    <section class="hero">
