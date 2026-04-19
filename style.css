@@ -1,3 +1,4 @@
+/* --- RESET & BASES --- */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,8 +9,10 @@ body {
   background: #0d1117;
   color: #e6edf3;
   font-family: 'Syne', sans-serif;
+  line-height: 1.5;
 }
 
+/* --- HERO --- */
 .hero {
   min-height: 100vh;
   display: flex;
@@ -31,7 +34,7 @@ body {
 .hero h1 {
   font-size: clamp(2.2rem, 8vw, 7rem);
   font-weight: 800;
-  line-height: 1;
+  line-height: 1.1;
   margin-bottom: 1.5rem;
 }
 
@@ -56,6 +59,7 @@ body {
   text-decoration: none;
 }
 
+/* --- CHAOS --- */
 .chaos {
   padding: 4rem 2rem;
   max-width: 900px;
@@ -80,7 +84,7 @@ body {
 .chaos-col {
   background: #161b22;
   padding: 2rem;
-  border-radius:6px;
+  border-radius: 6px;
 }
 
 .chaos-col.bad  { border-top: 3px solid #f78166; }
@@ -111,6 +115,10 @@ body {
   color: #8b949e;
 }
 
+.chaos-col.bad ul li {
+  color: #F7B2A6;
+}
+
 .chaos-col.good ul li {
   display: flex;
   flex-direction: column;
@@ -119,17 +127,84 @@ body {
   border-radius: 6px;
   padding: 0.8rem 1rem;
 }
-.chaos-col.bad ul li {
-  color: #F7B2A6;
-}
 
 .hash { color: #79c0ff; font-size: 0.72rem; }
 .msg  { color: #e6edf3; font-size: 0.82rem; font-weight: 700; }
 .date { color: #8b949e; font-size: 0.68rem; }
 
+/* --- COMMANDES --- */
+.commands {
+  padding: 4rem 2rem;
+  background: #161b22;
+}
+
+.commands h2 {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 800;
+  margin: 0 auto 2rem auto;
+  max-width: 900px;
+}
+
+.commands-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.cmd-card {
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.cmd-card:hover {
+  border-color: #e3b341;
+  box-shadow: 0 0 12px rgba(227, 179, 65, 0.3),
+              0 0 24px rgba(227, 179, 65, 0.1);
+}
+
+.cmd-icon {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.cmd-name {
+  font-family: 'Courier New', monospace;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  color: #e6edf3;
+}
+
+.cmd-desc {
+  font-size: 0.88rem;
+  color: #8b949e;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.cmd-code {
+  background: #21262d;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.78rem;
+  color: #79c0ff;
+  display: block;
+  line-height: 1.5;
+}
+
+/* --- RESPONSIVE --- */
 @media (min-width: 600px) {
   .chaos-grid {
     grid-template-columns: 1fr 1fr;
   }
-
+  .commands-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
