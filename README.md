@@ -1,4 +1,4 @@
-# GitHub SlideShow
+# Apprendre Git & GitHub avec OpenClassrooms
 
 ## Apprentissage de Git & GitHub avec OpenClassroms
 
