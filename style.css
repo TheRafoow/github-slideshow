@@ -119,6 +119,9 @@ body {
   border-radius: 6px;
   padding: 0.8rem 1rem;
 }
+.chaos-col.bad ul li {
+  color: #F7B2A6;
+}
 
 .hash { color: #79c0ff; font-size: 0.72rem; }
 .msg  { color: #e6edf3; font-size: 0.82rem; font-weight: 700; }
