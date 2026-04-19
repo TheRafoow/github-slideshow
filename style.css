@@ -199,6 +199,105 @@ body {
   line-height: 1.5;
 }
 
+/* --- WORKFLOW --- */
+.workflow {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.workflow h2 {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.workflow-sub {
+  color: #8b949e;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.workflow-steps {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.workflow-steps::before {
+  content: '';
+  position: absolute;
+  left: 1.2rem;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, #f78166, #79c0ff, #56d364);
+}
+
+.workflow-step {
+  display: flex;
+  gap: 2rem;
+  padding: 1.5rem 0 1.5rem 3.5rem;
+  position: relative;
+}
+
+.step-dot {
+  position: absolute;
+  left: calc(1.2rem - 6px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 2px solid #0d1117;
+}
+
+.step-dot.s1 { background: #f78166; }
+.step-dot.s2 { background: #79c0ff; }
+.step-dot.s3 { background: #56d364; }
+.step-dot.s4 { background: #e3b341; }
+.step-dot.s5 { background: #f78166; }
+
+.step-content {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  flex: 1;
+}
+
+.step-number {
+  font-family: 'Courier New', monospace;
+  font-size: 0.7rem;
+  color: #8b949e;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.3rem;
+}
+
+.step-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.step-desc {
+  font-size: 0.88rem;
+  color: #8b949e;
+  line-height: 1.6;
+}
+
+.step-cmd {
+  display: inline-block;
+  margin-top: 0.7rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.78rem;
+  color: #79c0ff;
+  background: #21262d;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+}
+
 /* --- RESPONSIVE --- */
 @media (min-width: 600px) {
   .chaos-grid {
