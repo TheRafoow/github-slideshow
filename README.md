@@ -1,7 +1,5 @@
 # Apprendre Git & GitHub avec OpenClassrooms
 
-## Apprentissage de Git & GitHub avec OpenClassroms
-
 ![OpenClassrooms-Logo](https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/open-classrooms.svg)
 
 ### Git : un outil de versioning pour collaborer sur des projets en équipe
