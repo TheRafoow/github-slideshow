@@ -298,6 +298,56 @@ body {
   border-radius: 4px;
 }
 
+/* --- FOOTER --- */
+.footer {
+  background: #161b22;
+  border-top: 1px solid #30363d;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.footer-inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer p {
+  color: #8b949e;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #79c0ff;
+  font-family: 'Courier New', monospace;
+  font-size: 0.82rem;
+  text-decoration: none;
+  border: 1px solid #30363d;
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.footer-link:hover {
+  border-color: #79c0ff;
+  color: #fff;
+}
+
+.footer-credit {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  font-family: 'Courier New', monospace;
+}
+
+.footer-credit a {
+  color: #8b949e;
+  text-decoration: none;
+}
+
 /* --- RESPONSIVE --- */
 @media (min-width: 600px) {
   .chaos-grid {
