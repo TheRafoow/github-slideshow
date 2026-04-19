@@ -55,3 +55,65 @@ body {
   border-radius: 4px;
   text-decoration: none;
 }
+
+.chaos {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.chaos h2 {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.chaos-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.chaos-col {
+  background: #161b22;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.chaos-col.bad {
+  border-top: 3px solid #f78166;
+}
+
+.chaos-col.good {
+  border-top: 3px solid #56d364;
+}
+
+.chaos-col h3 {
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.chaos-col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.chaos-col ul li {
+  background: #21262d;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  color: #8b949e;
+}
+
+.chaos-col.good ul li {
+  color: #e6edf3;
+}
+
+@media (min-width: 600px) {
+  .chaos-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
