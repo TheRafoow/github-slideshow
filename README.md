@@ -6,7 +6,7 @@
 
 ![GitHub-Logo-2013](https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg)
 
-#### Git est un logiciel de versioning, afin que plusieurs collaborateurs puissent travailler sur un projet commun
+#### Git est un logiciel de gestionnaire de versions, afin que plusieurs collaborateurs puissent travailler sur un projet commun en conservant un historique des modifications et de toutes les versions de fichiers qui constituentle projet
 
 <p align="center">
   <a href="https://openclassrooms.com/fr/courses/7162856-gerez-du-code-avec-git-et-github">
