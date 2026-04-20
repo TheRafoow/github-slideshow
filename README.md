@@ -1,4 +1,4 @@
-# Apprendre Git & GitHub avec OpenClassrooms
+# APPRENDRE GIT & GITHUB AVEC OPENCLASSROOMS
 
 [![OpenClassrooms-Logo](https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/open-classrooms.svg)](https://openclassrooms.com/fr/)
 
@@ -13,6 +13,6 @@
   <img src="https://classroom.github.com/assets/classroom-illustration-ae26b292c1f8278b1865d1315c24fd56707467d711a031870536a9ad3aa1aeb2.svg" width="300">
 </p>
 
-## 🌐 Voir la page en ligne
+## 🌐 VOIR LA PAGE EN LIGNE
 
-[https://therafoow.github.io/git-github-apprentissage-fr/](https://therafoow.github.io/git-github-apprentissage-fr/)
+[LES COMMANDES ESSENTIEL](https://therafoow.github.io/git-github-apprentissage-fr/)
